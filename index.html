@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đoàn Thanh niên là trường học xã hội chủ nghĩa của thanh niên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .author {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        /* ===== MỤC LỚN ===== */
+        .main-btn {
+            width: 100%;
+            padding: 14px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 8px;
+            background: #6c63ff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: left;
+        }
+
+        .main-content {
+            display: none;
+            padding: 15px;
+            border-left: 4px solid #6c63ff;
+            margin-bottom: 10px;
+        }
+
+        /* ===== MỤC NHỎ ===== */
+        .sub-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 6px;
+            background: #f0f0f0;
+            cursor: pointer;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .sub-content {
+            display: none;
+            padding: 10px 15px;
+            margin-left: 15px;
+            border-left: 3px solid #ccc;
+        }
+
+        /* ===== MỤC RẤT NHỎ (CHI TIẾT) ===== */
+        .detail {
+            margin-top: 8px;
+            padding: 10px;
+            background: #fafafa;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>📚 Đoàn Thanh niên là trường học xã hội chủ nghĩa của thanh niên</h2>
+    <div class="author">Tác giả: <strong>2/ Nguyễn Đình Linh</strong></div>
+
+    <!-- ===== MỤC 1 ===== -->
+<button class="main-btn" onclick="toggle('main1')">
+▶ Mục 1. Đặc trưng mô hình tổng quát của Chủ nghĩa xã hội ở nước ta
+</button>
+<div id="main1" class="main-content">
+
+    <button class="sub-btn" onclick="toggle('sub1-1')">➤ Mục 1.1. Mục tiêu phát triển vì con người</button>
+    <div id="sub1-1" class="sub-content">
+        <div class="detail">
+            Chủ nghĩa xã hội ở Việt Nam hướng tới mục tiêu cao nhất là con người, bảo đảm con người được phát triển toàn diện cả về vật chất, tinh thần, trí tuệ và đạo đức. Mọi chính sách phát triển đều lấy hạnh phúc và quyền lợi của nhân dân làm trung tâm.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-2')">➤ Mục 1.2. Nền kinh tế phát triển cao</button>
+    <div id="sub1-2" class="sub-content">
+        <div class="detail">
+            Nền kinh tế xã hội chủ nghĩa là nền kinh tế phát triển dựa trên lực lượng sản xuất hiện đại, quan hệ sản xuất tiến bộ, phù hợp, bảo đảm tăng trưởng gắn với tiến bộ và công bằng xã hội.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-3')">➤ Mục 1.3. Nhân dân làm chủ</button>
+    <div id="sub1-3" class="sub-content">
+        <div class="detail">
+            Nhân dân là chủ thể của quyền lực nhà nước và xã hội. Mọi quyền lực đều thuộc về nhân dân; nhân dân trực tiếp hoặc gián tiếp tham gia quản lý nhà nước, quản lý xã hội.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-4')">➤ Mục 1.4. Nhà nước pháp quyền xã hội chủ nghĩa</button>
+    <div id="sub1-4" class="sub-content">
+        <div class="detail">
+            Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân, được tổ chức và hoạt động trên cơ sở Hiến pháp và pháp luật, bảo đảm quyền con người và quyền công dân.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-5')">➤ Mục 1.5. Văn hóa tiên tiến, đậm đà bản sắc dân tộc</button>
+    <div id="sub1-5" class="sub-content">
+        <div class="detail">
+            Xây dựng nền văn hóa phát triển toàn diện, thấm nhuần giá trị nhân văn, dân tộc, dân chủ và khoa học, góp phần hình thành con người Việt Nam mới.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-6')">➤ Mục 1.6. Công bằng và tiến bộ xã hội</button>
+    <div id="sub1-6" class="sub-content">
+        <div class="detail">
+            Công bằng xã hội được thực hiện trong từng bước và từng chính sách phát triển, bảo đảm mọi người đều có cơ hội vươn lên, không ai bị bỏ lại phía sau.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-7')">➤ Mục 1.7. Quan hệ đoàn kết quốc tế</button>
+    <div id="sub1-7" class="sub-content">
+        <div class="detail">
+            Chủ nghĩa xã hội ở Việt Nam gắn liền với tinh thần hòa bình, hữu nghị, hợp tác, tôn trọng độc lập, chủ quyền và cùng phát triển với các quốc gia trên thế giới.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub1-8')">➤ Mục 1.8. Vai trò của thanh niên và Đoàn Thanh niên</button>
+    <div id="sub1-8" class="sub-content">
+        <div class="detail">
+            Thanh niên là lực lượng xung kích trong xây dựng chủ nghĩa xã hội. Đoàn Thanh niên là môi trường giáo dục lý tưởng, rèn luyện thế hệ trẻ về lý tưởng, đạo đức và trách nhiệm xã hội.
+        </div>
+    </div>
+
+</div>
+
+    <!-- ===== MỤC 2 ===== -->
+<button class="main-btn" onclick="toggle('main2')">
+▶ Mục 2. Phương hướng lớn xây dựng Chủ nghĩa xã hội ở nước ta
+</button>
+<div id="main2" class="main-content">
+
+    <button class="sub-btn" onclick="toggle('sub2-1')">➤ Mục 2.1. Phát triển kinh tế là nhiệm vụ trung tâm</button>
+    <div id="sub2-1" class="sub-content">
+        <div class="detail">
+            Phát triển kinh tế nhanh và bền vững gắn với đổi mới mô hình tăng trưởng, nâng cao năng suất, chất lượng và hiệu quả.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-2')">➤ Mục 2.2. Xây dựng Đảng là nhiệm vụ then chốt</button>
+    <div id="sub2-2" class="sub-content">
+        <div class="detail">
+            Đảng Cộng sản Việt Nam giữ vai trò lãnh đạo toàn diện, phải thường xuyên tự đổi mới, chỉnh đốn để xứng đáng với niềm tin của nhân dân.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-3')">➤ Mục 2.3. Phát triển văn hóa, con người</button>
+    <div id="sub2-3" class="sub-content">
+        <div class="detail">
+            Văn hóa và con người là nền tảng tinh thần của xã hội, là mục tiêu và động lực của phát triển bền vững.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-4')">➤ Mục 2.4. Bảo đảm quốc phòng, an ninh</button>
+    <div id="sub2-4" class="sub-content">
+        <div class="detail">
+            Giữ vững độc lập, chủ quyền, toàn vẹn lãnh thổ là điều kiện tiên quyết cho sự nghiệp xây dựng chủ nghĩa xã hội.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-5')">➤ Mục 2.5. Phát huy dân chủ xã hội chủ nghĩa</button>
+    <div id="sub2-5" class="sub-content">
+        <div class="detail">
+            Dân chủ xã hội chủ nghĩa vừa là mục tiêu, vừa là động lực của sự phát triển đất nước.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-6')">➤ Mục 2.6. Xây dựng Nhà nước pháp quyền</button>
+    <div id="sub2-6" class="sub-content">
+        <div class="detail">
+            Nhà nước quản lý xã hội bằng pháp luật, bảo đảm kỷ cương, công bằng và quyền con người.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-7')">➤ Mục 2.7. Phát triển khoa học – công nghệ</button>
+    <div id="sub2-7" class="sub-content">
+        <div class="detail">
+            Khoa học – công nghệ là động lực then chốt của công nghiệp hóa, hiện đại hóa đất nước.
+        </div>
+    </div>
+
+    <button class="sub-btn" onclick="toggle('sub2-8')">➤ Mục 2.8. Vai trò giáo dục của Đoàn Thanh niên</button>
+    <div id="sub2-8" class="sub-content">
+        <div class="detail">
+            Đoàn Thanh niên là trường học xã hội chủ nghĩa, góp phần đào tạo thế hệ trẻ có lý tưởng, bản lĩnh chính trị và tinh thần cống hiến.
+        </div>
+    </div>
+
+</div>
+
+    <!-- ===== MỤC 3 ===== -->
+<button class="main-btn" onclick="toggle('main3')">
+▶ Mục 3. Những mối quan hệ lớn trong thời kỳ quá độ lên Chủ nghĩa xã hội
+</button>
+<div id="main3" class="main-content">
+
+    <button class="sub-btn" onclick="toggle('sub3-1')">➤ Mục 3.1. Giữa đổi mới và ổn định</button>
+    <div id="sub3-1" class="sub-content"><div class="detail">Đổi mới phải gắn liền với giữ vững ổn định chính trị – xã hội.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-2')">➤ Mục 3.2. Giữa kinh tế và chính trị</button>
+    <div id="sub3-2" class="sub-content"><div class="detail">Phát triển kinh tế phải đi đôi với giữ vững định hướng chính trị.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-3')">➤ Mục 3.3. Giữa tăng trưởng và công bằng</button>
+    <div id="sub3-3" class="sub-content"><div class="detail">Tăng trưởng kinh tế phải gắn với tiến bộ và công bằng xã hội.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-4')">➤ Mục 3.4. Giữa độc lập và hội nhập</button>
+    <div id="sub3-4" class="sub-content"><div class="detail">Hội nhập quốc tế phải trên cơ sở giữ vững độc lập, tự chủ.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-5')">➤ Mục 3.5. Giữa Nhà nước – thị trường – xã hội</button>
+    <div id="sub3-5" class="sub-content"><div class="detail">Ba yếu tố này cần được vận hành hài hòa, bổ trợ cho nhau.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-6')">➤ Mục 3.6. Giữa truyền thống và hiện đại</button>
+    <div id="sub3-6" class="sub-content"><div class="detail">Phát triển hiện đại nhưng không đánh mất bản sắc dân tộc.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-7')">➤ Mục 3.7. Giữa quyền và trách nhiệm</button>
+    <div id="sub3-7" class="sub-content"><div class="detail">Mỗi quyền lợi của công dân luôn đi kèm nghĩa vụ xã hội.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-8')">➤ Mục 3.8. Giữa phát triển và bảo vệ Tổ quốc</button>
+    <div id="sub3-8" class="sub-content"><div class="detail">Phát triển kinh tế gắn với củng cố quốc phòng, an ninh.</div></div>
+
+    <button class="sub-btn" onclick="toggle('sub3-9')">➤ Mục 3.9. Vai trò giáo dục của Đoàn Thanh niên</button>
+    <div id="sub3-9" class="sub-content"><div class="detail">Đoàn Thanh niên giúp thanh niên nhận thức đúng và hành động đúng trong thời kỳ quá độ.</div></div>
+
+</div>
+
+</div>
+
+<script>
+    function toggle(id) {
+        const el = document.getElementById(id);
+        el.style.display = (el.style.display === "block") ? "none" : "block";
+    }
+</script>
+
+</body>
+</html>
